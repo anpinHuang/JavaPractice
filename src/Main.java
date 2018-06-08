@@ -27,6 +27,8 @@ public class Main {
 		for(int[] row : SudokuBoard) {
 			Sudoku.printRow(row);
 		}
+		System.out.println(Fibonacci.fibonacci(15));
+		
 //		int[][] solution = SudokuBoard.clone();
 //		solution[0][0] = 100;
 //		for(int[] row : SudokuBoard) {
